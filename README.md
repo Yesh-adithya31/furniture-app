@@ -7,7 +7,7 @@
 ### React-Native E-commerce App using REST-API Integration
 How It works:
 - Home Page
-<img src="ss-images/home.png" alt="Image Description" width="400" height="550">
+<img src="ss-images/home.png" alt="Image Description" width="200" height="550">
 - Product Details Page
 ![ss-2][ss-2]
 - Search Page
