@@ -7,11 +7,11 @@
 ### React-Native E-commerce App using REST-API Integration
 How It works:
 - Home Page
-![ss-1]
+![ss-1][ss-1]
 - Product Details Page
-![ss-2]
+![ss-2][ss-2]
 - Search Page
-![ss-3]
+![ss-3][ss-3]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -20,7 +20,7 @@ How It works:
 Here this E-commerce Application application create using React-native Framework and REST_API using for data fetch from MONGO DB.
 
 - [![react-document][React Native]][react-document]
-- [![REST API][REST API]]
+- ![REST API][REST API]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,7 +54,7 @@ _This is the step you have to follow._
 
 1. Clone the repositery
     ```sh
-    git clone https://github.com/Yesh-adithya31/react-native-ToDo-App.git
+    git clone https://github.com/Yesh-adithya31/furniture-app.git
     ````
 
 2. Install npm packages
@@ -79,6 +79,6 @@ _This is the step you have to follow._
 [react-document]: https://facebook.github.io/react-native/
 [React Native]: https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white
 [REST API]: https://img.shields.io/badge/REST_API-Your_Color?style=for-the-badge
-[ss-1]: (ss-images/home.png)
-[ss-2]: (ss-images/details.png)
-[ss-3]: (ss-images/search.png)
+[ss-1]: ss-images/home.png
+[ss-2]: ss-images/details.png
+[ss-3]: ss-images/search.png
