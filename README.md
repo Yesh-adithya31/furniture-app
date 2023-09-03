@@ -8,8 +8,10 @@
 How It works:
 - Home Page
 <img src="ss-images/home.png" alt="Image Description" width="300" height="550">
+
 - Product Details Page
 <img src="ss-images/details.png" alt="Image Description" width="300" height="550">
+
 - Search Page
 <img src="ss-images/search.png" alt="Image Description" width="300" height="550">
 
