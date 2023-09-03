@@ -9,9 +9,9 @@ How It works:
 - Home Page
 <img src="ss-images/home.png" alt="Image Description" width="300" height="550">
 - Product Details Page
-![ss-2][ss-2]
+<img src="ss-images/details.png" alt="Image Description" width="300" height="550">
 - Search Page
-![ss-3][ss-3]
+<img src="ss-images/search.png" alt="Image Description" width="300" height="550">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,6 +79,3 @@ _This is the step you have to follow._
 [react-document]: https://facebook.github.io/react-native/
 [React Native]: https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white
 [REST API]: https://img.shields.io/badge/REST_API-Your_Color?style=for-the-badge
-[ss-1]: ss-images/home.png
-[ss-2]: ss-images/details.png
-[ss-3]: ss-images/search.png
