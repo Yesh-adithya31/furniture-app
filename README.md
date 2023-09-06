@@ -11,13 +11,13 @@ How It works:
 
 - Product Details Page
 <div style="display: flex; justify-content: space-between;">
-  <img src="ss-images/detailsV1-1.jpg" alt="Image Description" style="width: 48%; height: 70%;">
-  <img src="ss-images/detailsV1-2.jpg" alt="Image Description" style="width: 48%; height: 70%;">
+  <img src="ss-images/detailsV1-1.jpg" alt="Image Description" style="width: 48%; height: 50%;">
+  <img src="ss-images/detailsV1-2.jpg" alt="Image Description" style="width: 48%; height: 50%;">
 </div>
 
 - Search Page
-<img src="ss-images/searchV1-1.png" alt="Image Description" width="300" height="550">
-<img src="ss-images/searchV1-2.png" alt="Image Description" width="300" height="550">
+<img src="ss-images/searchV1-1.png" alt="Image Description"  style="width: 48%; height: 50%;">
+<img src="ss-images/searchV1-2.png" alt="Image Description"  style="width: 48%; height: 50%;">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
