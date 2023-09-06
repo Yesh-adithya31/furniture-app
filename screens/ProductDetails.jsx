@@ -8,8 +8,11 @@ import {
   Fontisto
 } from "@expo/vector-icons";
 import { COLORS, SIZES } from "../constants";
+import { useRoute } from "@react-navigation/native";
 
 const ProductDetails = ({ navigation }) => {
+  const route = useRoute()
+  const { item } = route.params
   const [count, setCount] = useState(1);
 
   const increment = () => {
@@ -33,7 +36,7 @@ const ProductDetails = ({ navigation }) => {
       </View>
       <Image
         source={{
-          uri: "https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2127&q=80",
+          uri: item.imageUrl,
         }}
         style={styles.image}
       />
@@ -41,10 +44,10 @@ const ProductDetails = ({ navigation }) => {
       <View style={styles.details}>
         <View style={styles.titleRow}>
           <Text style={styles.title} ellipsizeMode="tail">
-            This Is The Product
+            {item.title}
           </Text>
           <View style={styles.priceWrapper}>
-            <Text style={styles.price}>LKR 67,000</Text>
+            <Text style={styles.price}>{item.price}</Text>
           </View>
         </View>
 
@@ -70,18 +73,7 @@ const ProductDetails = ({ navigation }) => {
         <View style={styles.descriptionWrapper}>
           <Text>Description</Text>
           <Text style={styles.descText}>
-            Lorem ipsum dolor sit amte, construectwe, Lorem ipsum dolor sit
-            amte, construectwe, Lorem ipsum dolor sit amte, construectwe, Lorem
-            ipsum dolor sit amte, construectwe, Lorem ipsum dolor sit amte,
-            construectwe, Lorem ipsum dolor sit amte, construectwe, Lorem ipsum
-            dolor sit amte, construectwe, Lorem ipsum dolor sit amte,
-            construectwe, Lorem ipsum dolor sit amte, construectwe, Lorem ipsum
-            dolor sit amte, construectwe, Lorem ipsum dolor sit amte,
-            construectwe, Lorem ipsum dolor sit amte, construectwe, Lorem ipsum
-            dolor sit amte, construectwe, Lorem ipsum dolor sit amte,
-            construectwe, Lorem ipsum dolor sit amte, construectwe, Lorem ipsum
-            dolor sit amte, construectwe, Lorem ipsum dolor sit amte,
-            construectwe, Lorem ipsum dolor sit amte, construectwe,
+            {item.description}
           </Text>
         </View>
       </View>
@@ -90,7 +82,7 @@ const ProductDetails = ({ navigation }) => {
         <View style={styles.location}>
           <View style={{ flexDirection: "row" }}>
             <Ionicons name="location-outline" size={20} />
-            <Text>  Colombo</Text>
+            <Text>  {item.product_location}</Text>
           </View>
           <View style={{ flexDirection: "row" }}>
             <MaterialCommunityIcons name="truck-delivery-outline" size={20} />
