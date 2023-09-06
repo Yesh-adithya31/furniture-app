@@ -10,8 +10,10 @@ How It works:
 <img src="ss-images/homeV1.jpg" alt="Image Description" width="300" height="550">
 
 - Product Details Page
-<img src="ss-images/detailsV1-1.jpg" alt="Image Description" width="300" height="550">
-<img src="ss-images/detailsV1-2.jpg" alt="Image Description" width="300" height="550">
+<div style="display: flex; justify-content: space-between;">
+  <img src="ss-images/detailsV1-1.jpg" alt="Image Description" style="width: 48%;">
+  <img src="ss-images/detailsV1-2.jpg" alt="Image Description" style="width: 48%;">
+</div>
 
 - Search Page
 <img src="ss-images/searchV1-1.png" alt="Image Description" width="300" height="550">
