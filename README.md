@@ -11,8 +11,8 @@ How It works:
 
 - Product Details Page
 <div style="display: flex; justify-content: space-between;">
-  <img src="ss-images/detailsV1-1.jpg" alt="Image Description" style="width: 48%;">
-  <img src="ss-images/detailsV1-2.jpg" alt="Image Description" style="width: 48%;">
+  <img src="ss-images/detailsV1-1.jpg" alt="Image Description" style="width: 48%; height: 70%;">
+  <img src="ss-images/detailsV1-2.jpg" alt="Image Description" style="width: 48%; height: 70%;">
 </div>
 
 - Search Page
