@@ -8,11 +8,11 @@
 How It works:
 - Home Page
 
-<img src="ss-images/homeV1.png" alt="Image Description" width="300" height="550">
+<img src="ss-images/homeV1.jpg" alt="Image Description" width="300" height="550">
 
 - Product Details Page
-<img src="ss-images/detailsV1-1.png" alt="Image Description" width="300" height="550">
-<img src="ss-images/detailsV1-2.png" alt="Image Description" width="300" height="550">
+<img src="ss-images/detailsV1-1.jpg" alt="Image Description" width="300" height="550">
+<img src="ss-images/detailsV1-2.jpg" alt="Image Description" width="300" height="550">
 
 - Search Page
 <img src="ss-images/searchV1-1.png" alt="Image Description" width="300" height="550">
