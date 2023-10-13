@@ -1,3 +1,5 @@
+import BackBtn from "./BackBtn";
+import Button from "./Button";
 import Carousel from "./home/Carousel";
 import Heading from "./home/Heading";
 import Welcome from "./home/Welcome";
@@ -9,5 +11,7 @@ export{
     Heading,
     Welcome,
     ProductRow,
-    ProductList
+    ProductList,
+    BackBtn,
+    Button
 }
